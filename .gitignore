@@ -1,0 +1,33 @@
+
+node_modules
+# Keep environment variables out of version control
+.env
+
+# Ignore log files
+*.log
+
+# Ignore build output
+dist/
+build/
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore sensitive information
+secrets.txt
